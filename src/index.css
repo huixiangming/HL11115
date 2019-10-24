@@ -1,0 +1,25 @@
+@import '~antd/dist/antd.css';
+#root{
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background-color: red; */
+}
+#a{
+    position: relative;
+    float: left;
+    font-size: 30px;
+}
+#b{
+   height: 50px;
+   width: 200px;
+}
+#c{
+    position: relative;
+    margin-left: 50px;
+    
+}
+#d{
+    position: relative;
+    margin-left: 20px;
+    color: red;
+}
