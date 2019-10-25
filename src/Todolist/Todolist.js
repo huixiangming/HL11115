@@ -66,7 +66,7 @@ export default class Todolist extends Component {
         })
     }
     //存储到本地
-    componentWillMount(){
+    componentDidMount(){
         var todo = JSON.parse(localStorage.getItem('todo'));
         var finished = JSON.parse(localStorage.getItem('finished'));
         if(todo){
